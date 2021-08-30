@@ -1,0 +1,33 @@
+{% include head.html %}
+
+
+<div class="wraper">
+    <div class="box">
+        <h1>Todo app</h1>
+        <form>
+            <input type="text" id="name">
+            <input type="button" value="submit" onclick="manageData()">
+        </form>
+        <div id="msg">
+
+        </div>
+
+
+
+        <h2> Todo List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>s.no</td>
+                    <td>Task</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include scripts.html %}
